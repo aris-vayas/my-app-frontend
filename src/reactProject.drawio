@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="3KE_MPqGgvQ7TkDY-aaq" name="Page-1">
+        <mxGraphModel dx="252" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="NavBar&lt;br&gt;/Search&lt;br&gt;/Home&lt;br&gt;/NewRecpie&lt;br&gt;/Ingredient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="130" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="RecipeCard&lt;br&gt;render card in format with dev etc" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="App aka Home&lt;br&gt;&lt;br&gt;/RecipeCard&lt;br&gt;/NavBar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Search&lt;br&gt;create search bar component" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Ingredient&lt;br&gt;get request render ingedient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="NewRecipe&lt;br&gt;new recipe form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
