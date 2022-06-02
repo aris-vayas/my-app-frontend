@@ -1,10 +1,26 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Home";
-import React, { useState, useEffect } from "react";
-import RecipeCards from "./RecipeCards";
+import { Route, Switch } from "react-router-dom";
+import Ingredient from "./Ingredient";
+import NewRecipe from "./NewRecipe";
+import NavBar from "./NavBar";
 function App() {
-  return <Home />;
+  return (
+    <div>
+      <NavBar />
+      <Switch>
+        <Route path="/Ingredient">
+          <Ingredient />
+        </Route>
+        <Route path="/NewRecipe">
+          <NewRecipe />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </div>
+  );
 }
 
 export default App;
